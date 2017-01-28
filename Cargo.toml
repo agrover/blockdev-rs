@@ -1,0 +1,12 @@
+[package]
+name = "blockdev"
+version = "0.1.0"
+authors = ["Andy Grover <agrover@redhat.com>"]
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0"
+
+[dependencies]
+
+
