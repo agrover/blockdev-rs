@@ -4,9 +4,9 @@ use std::env;
 use std::path::PathBuf;
 
 fn main() {
-    // Tell cargo to tell rustc to link the system bzip2
-    // shared library.
+    // Tell cargo to tell rustc to link the shared libraries.
     println!("cargo:rustc-link-lib=blockdev");
+    println!("cargo:rustc-link-lib=gobject-2.0");
 
     // The bindgen::Builder is the main entry point
     // to bindgen, and lets you build up options for
